@@ -6,20 +6,21 @@ public class Main {
         System.out.println("Filme: Tp Gun: Maverick");
 
         int anoDeLacamento = 2022;
-        System.out.println("Ano de Lançamento: "+anoDeLacamento);
+        System.out.println("Ano de Lançamento: " + anoDeLacamento);
         boolean incluidoNoPlano = true;
 
-        double media = (9.8+6.3+8)/3;
+        double media = (9.8 + 6.3 + 8) / 3;
         System.out.println(media);
-       String sinopse = """
+        String sinopse = """
                 Filme TOP Gun
                 Fime de aventura com galã dos anos 80
                 Muito bom
                 Ano de lançamento
-                """ +anoDeLacamento;
+                """ + anoDeLacamento;
         System.out.println(sinopse);
 
-
-
+        int classificação;
+        classificação = (int)media / 2;
+        System.out.println(classificação);
     }
 }
